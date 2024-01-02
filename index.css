@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.head_start{
+    background-color:#3796C9;
+     padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.head_start h1{
+    color: white; 
+    font-size: 40px;
+     font-weight: lighter; 
+     font-size: 45px;
+}
+.navbar{
+    
+    display: flex;
+    background-color: #333333;
+    justify-content: space-between;
+  
+}
+.nav_ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  
+}
+
+.nav_ul li {
+    margin-left: 35px;
+}
+.li_first{
+    margin-left: 25px;
+}
+.nav_ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.img{
+    
+    margin-right: 25px;
+    padding-top: 7px;
+
+}
+.content_div{
+    padding-left: 25px; 
+    padding-top: 20px;
+}
+.content{
+    border: 1px groove #ccc;
+    width: 48vw;
+    margin-left: 25px;
+    padding: 1px 1px;
+}
+.content_ul{
+    list-style-type: none;
+}
+.content_ul li{
+    padding-left: 18px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.content_ul  ::before{
+    content: "-";
+    padding-right: 8px;
+    font-size: 10px;
+}
+.content h2{
+
+    padding: 5px 0px 3px 10px;
+    font-weight: bolder;
+    font-size:18px ;
+}
+.para{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.main{
+    margin-left: 25px;
+}
+.main h2{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main p{
+    margin-bottom: 10px;
+    width: 75vw;
+    font-size: 13px;
+    font-weight: 600;
+}
